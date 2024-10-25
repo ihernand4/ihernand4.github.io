@@ -692,15 +692,58 @@ endShape(CLOSE);
 }
 
 function drawRainbow() {
-   // Dibuix d'un arc de Sant Martí
-   let radius = 50;
-   let colors = ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#8B00FF']; // Colors de l'arc de Sant Martí
-
-   for (let i = 0; i < colors.length; i++) {
-       stroke(colors[i]);
-       noFill();
-       arc(0, 0, radius + i * 10, radius + i * 10, PI, TWO_PI); // Dibuixar arcs concèntrics amb diferents colors
-   }
+   // drawing a musical note
+   beginShape();
+curveVertex(24, 13.874992370605469);
+curveVertex(27, 15.874992370605469);
+curveVertex(28, 17.87499237060547);
+curveVertex(30, 19.87499237060547);
+curveVertex(32, 21.87499237060547);
+curveVertex(34, 23.87499237060547);
+curveVertex(38, 26.87499237060547);
+curveVertex(40, 28.87499237060547);
+curveVertex(41, 30.87499237060547);
+curveVertex(42, 32.87499237060547);
+curveVertex(43, 35.87499237060547);
+curveVertex(43, 38.87499237060547);
+curveVertex(41, 41.87499237060547);
+curveVertex(40, 43.87499237060547);
+curveVertex(38, 44.87499237060547);
+curveVertex(35, 46.87499237060547);
+curveVertex(36, 43.87499237060547);
+curveVertex(38, 42.87499237060547);
+curveVertex(39, 40.87499237060547);
+curveVertex(39, 37.87499237060547);
+curveVertex(37, 34.87499237060547);
+curveVertex(34, 31.87499237060547);
+curveVertex(28, 25.87499237060547);
+curveVertex(25, 23.87499237060547);
+curveVertex(25, 25.87499237060547);
+curveVertex(25, 27.87499237060547);
+curveVertex(24, 66.87499237060547);
+curveVertex(24, 68.87499237060547);
+curveVertex(24, 71.87499237060547);
+curveVertex(24, 73.87499237060547);
+curveVertex(23, 75.87499237060547);
+curveVertex(21, 76.87499237060547);
+curveVertex(19, 77.87499237060547);
+curveVertex(17, 78.87499237060547);
+curveVertex(13, 78.87499237060547);
+curveVertex(10, 78.87499237060547);
+curveVertex(7, 76.87499237060547);
+curveVertex(4, 73.87499237060547);
+curveVertex(4, 70.87499237060547);
+curveVertex(5, 67.87499237060547);
+curveVertex(7, 65.87499237060547);
+curveVertex(9, 63.87499237060547);
+curveVertex(11, 62.87499237060547);
+curveVertex(14, 61.87499237060547);
+curveVertex(16, 61.87499237060547);
+curveVertex(19, 61.87499237060547);
+curveVertex(21, 62.87499237060547);
+curveVertex(22, 63.87499237060547);
+curveVertex(23, 64.87499237060547);
+endShape(CLOSE);
 }
 
 function handleFileUpload(event) {
